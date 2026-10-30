@@ -10,7 +10,7 @@ const galleryItems = [
   {
     src: "assets/images/gallery/orphanage-centre-01.jpg",
     alt: "Sign outside an orphanage centre",
-    title: "A community centre",
+    title: "Orphanage centre",
     category: "orphanage",
     caption: "A place visited during outreach"
   },
@@ -18,8 +18,8 @@ const galleryItems = [
     src: "assets/images/gallery/outreach-team-01.jpg",
     alt: "Two members of the outreach team together",
     title: "Together in the work",
-    category: "community",
-    caption: "Team members during an outreach visit"
+    category: "foundation",
+    caption: "Team members engaging in foundation activities"
   },
   {
     src: "assets/images/gallery/children-visit-01.jpg",
@@ -32,15 +32,15 @@ const galleryItems = [
     src: "assets/images/gallery/outreach-team-02.jpg",
     alt: "Two outreach team members standing together",
     title: "A shared moment",
-    category: "community",
-    caption: "Team members during community work"
+    category: "foundation",
+    caption: "Team members during foundation work"
   },
   {
     src: "assets/images/gallery/community-visit-01.jpg",
     alt: "A group of visitors gathered outside a community building",
-    title: "Community visit",
-    category: "community",
-    caption: "A group together during a visit"
+    title: "Foundation visit",
+    category: "foundation",
+    caption: "A group together during a foundation visit"
   }
 ];
 

@@ -12,7 +12,29 @@ A static, seven-page foundation website built with HTML, CSS, and vanilla JavaSc
 - `get-involved.html` — WhatsApp, telephone, donation, and partnership enquiries
 - `contact.html` — contact details, WhatsApp, and telephone links
 
-## Add gallery images
+## Branding
+
+The website uses a temporary text-based wordmark instead of a non-official logo. When the foundation supplies an official logo, replace the wordmark in the shared header/footer and update the social metadata by editing the relevant `meta property="og:image"` and `link rel="icon"` values in each HTML file.
+
+Default path for the official image:
+
+- `assets/images/brand/tender-hearts-logo.jpg`
+
+If the design is later supplied, place it in `assets/images/brand/` with the exact filename above and update the relevant HTML references.
+
+## Leadership and team updates
+
+Use the following confirmed team data when replacing profiles:
+
+- `Taiwo-Amusan Boluwajoko` — Founder / President
+- `Adelowo Oluwatunmise` — Vice President
+- `Fagbiye Oluwagbotemi` — Media Personnel
+- `Akinade Victoria` — Social Media Manager
+- `Mrs Clement Mary` — Additional team member; matron
+
+Portrait placeholders should live in `assets/images/leadership/` and can be updated by replacing the file names referenced in the profile cards. Do not display unfinished placeholders publicly when a confirmed portrait is unavailable; use a neutral local placeholder instead.
+
+## Gallery updates
 
 Photo updates are managed from this README and the gallery manifest; the website does not display photo-editing instructions.
 
@@ -20,14 +42,18 @@ Photo updates are managed from this README and the gallery manifest; the website
 2. Add its `src`, `alt`, `title`, `category`, and `caption` to the `galleryItems` list in `js/gallery.js`.
 3. Preview `gallery.html` and check the category filter and image description.
 
-The gallery uses consistent image crops so photos of different original dimensions display at equal card sizes. See [`assets/images/gallery/README.md`](assets/images/gallery/README.md) for a complete example. Six supplied outreach photographs are included. Confirm consent and protect the privacy of children and vulnerable people before publishing.
+Approved categories currently displayed are:
+
+- `orphanage`
+- `foundation`
+
+Do not publish community-outreach claims unless the foundation confirms the activity has actually happened. The website should remain factual and privacy-aware.
 
 ## Before launch
 
-- The supplied official logo is used in the header, footer, favicon, and social preview image.
 - Confirm the donation account details remain current before publishing or accepting transfers.
 - Register a domain before adding canonical URLs, absolute social preview image URLs, or a sitemap.
-- No official email address or biographies were supplied, so these are intentionally omitted.
+- No official email address was supplied, so it remains intentionally omitted.
 - The fonts load from Google Fonts when online and fall back to system fonts if unavailable.
 
 ## Accessibility and behavior

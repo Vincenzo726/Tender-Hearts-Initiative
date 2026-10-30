@@ -66,8 +66,10 @@ h3 { font-size: clamp(1.45rem, 2.4vw, 2rem); }
 .site-header { position: sticky; z-index: 50; top: 0; border-bottom: 1px solid transparent; background: rgba(248,244,236,.94); backdrop-filter: blur(16px); transition: box-shadow .25s ease, border-color .25s ease; }
 .site-header.is-scrolled { border-color: var(--line); box-shadow: 0 8px 24px rgba(36,62,50,.06); }
 .nav-wrap { display: flex; min-height: 5.4rem; align-items: center; justify-content: space-between; gap: 1rem; }
+.brand { display: inline-flex; flex: 0 0 auto; align-items: center; text-decoration: none; }
 .brand { display: inline-flex; flex: 0 0 auto; align-items: center; color: var(--deep-green); text-decoration: none; }
 .brand-logo { display: block; width: clamp(145px, 17vw, 210px); height: auto; max-height: 62px; object-fit: contain; background: var(--white); }
+.brand-wordmark { display: inline-flex; align-items: center; font-family: var(--serif); font-size: clamp(1.05rem, 1.6vw, 1.7rem); letter-spacing: -.03em; font-weight: 700; color: var(--deep-green); text-transform: none; }
 .primary-nav { display: flex; align-items: center; gap: clamp(.9rem, 2vw, 1.7rem); }
 .primary-nav a { color: #4e5951; font-size: .83rem; font-weight: 600; text-decoration: none; transition: color .2s ease; }
 .primary-nav a:hover, .primary-nav a[aria-current="page"] { color: var(--green); }
